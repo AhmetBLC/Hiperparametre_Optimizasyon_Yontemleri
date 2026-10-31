@@ -1,0 +1,56 @@
+Dataset,Model,Hyperparameter,Importance,n_trials
+HARTH,Random Forest,max_depth,0.7966,1000
+HARTH,Random Forest,max_features,0.1378,1000
+HARTH,Random Forest,min_samples_leaf,0.0654,1000
+HARTH,Random Forest,n_estimators,0.0002,1000
+HARTH,SVM (RBF),gamma,0.9999,1000
+HARTH,SVM (RBF),C,0.0001,1000
+HARTH,XGBoost,learning_rate,0.7625,1000
+HARTH,XGBoost,n_estimators,0.1202,1000
+HARTH,XGBoost,max_depth,0.071,1000
+HARTH,XGBoost,subsample,0.0287,1000
+HARTH,XGBoost,colsample_bytree,0.0177,1000
+MotionSense,Random Forest,max_depth,0.9437,1000
+MotionSense,Random Forest,max_features,0.0558,1000
+MotionSense,Random Forest,min_samples_leaf,0.0005,1000
+MotionSense,Random Forest,n_estimators,0.0001,1000
+MotionSense,SVM (RBF),gamma,0.9999,1000
+MotionSense,SVM (RBF),C,0.0001,1000
+MotionSense,XGBoost,learning_rate,0.6859,1000
+MotionSense,XGBoost,n_estimators,0.1938,1000
+MotionSense,XGBoost,max_depth,0.0523,1000
+MotionSense,XGBoost,colsample_bytree,0.0378,1000
+MotionSense,XGBoost,subsample,0.0302,1000
+PAMAP2,Random Forest,max_depth,0.8296,1000
+PAMAP2,Random Forest,max_features,0.0929,1000
+PAMAP2,Random Forest,min_samples_leaf,0.0772,1000
+PAMAP2,Random Forest,n_estimators,0.0003,1000
+PAMAP2,SVM (RBF),gamma,1.0,1000
+PAMAP2,SVM (RBF),C,0.0,1000
+PAMAP2,XGBoost,learning_rate,0.6883,1000
+PAMAP2,XGBoost,colsample_bytree,0.2072,1000
+PAMAP2,XGBoost,subsample,0.0637,1000
+PAMAP2,XGBoost,n_estimators,0.0331,1000
+PAMAP2,XGBoost,max_depth,0.0077,1000
+UCI HAR,Random Forest,max_depth,0.898,1000
+UCI HAR,Random Forest,max_features,0.1014,1000
+UCI HAR,Random Forest,min_samples_leaf,0.0005,1000
+UCI HAR,Random Forest,n_estimators,0.0001,1000
+UCI HAR,SVM (RBF),gamma,1.0,1000
+UCI HAR,SVM (RBF),C,0.0,1000
+UCI HAR,XGBoost,learning_rate,0.4738,1000
+UCI HAR,XGBoost,max_depth,0.3837,1000
+UCI HAR,XGBoost,n_estimators,0.1071,1000
+UCI HAR,XGBoost,subsample,0.0317,1000
+UCI HAR,XGBoost,colsample_bytree,0.0037,1000
+WISDM,Random Forest,max_depth,0.5992,1000
+WISDM,Random Forest,min_samples_leaf,0.2747,1000
+WISDM,Random Forest,max_features,0.1255,1000
+WISDM,Random Forest,n_estimators,0.0006,1000
+WISDM,SVM (RBF),gamma,1.0,1000
+WISDM,SVM (RBF),C,0.0,1000
+WISDM,XGBoost,learning_rate,0.848,1000
+WISDM,XGBoost,n_estimators,0.0832,1000
+WISDM,XGBoost,max_depth,0.0506,1000
+WISDM,XGBoost,subsample,0.0125,1000
+WISDM,XGBoost,colsample_bytree,0.0057,1000

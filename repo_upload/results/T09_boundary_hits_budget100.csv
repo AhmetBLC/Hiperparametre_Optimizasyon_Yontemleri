@@ -1,0 +1,12 @@
+Model,Hyperparameter,BOHB,Bayesian opt. (TPE),CMA-ES,Genetic algorithm,Grid Search,Random Search
+Random Forest,max_depth,2.0,4.0,6.0,12.0,0.0,4.0
+Random Forest,max_features,2.0,8.0,0.0,0.0,0.0,6.0
+Random Forest,min_samples_leaf,50.0,62.0,18.0,28.0,0.0,56.0
+Random Forest,n_estimators,4.0,8.0,0.0,14.0,0.0,2.0
+SVM (RBF),C,0.0,0.0,0.0,0.0,0.0,0.0
+SVM (RBF),gamma,0.0,8.0,0.0,14.0,0.0,2.0
+XGBoost,colsample_bytree,12.0,6.0,6.0,12.0,0.0,6.0
+XGBoost,learning_rate,2.0,0.0,0.0,4.0,0.0,0.0
+XGBoost,max_depth,24.0,38.0,34.0,24.0,0.0,36.0
+XGBoost,n_estimators,10.0,8.0,6.0,20.0,0.0,6.0
+XGBoost,subsample,4.0,4.0,4.0,18.0,0.0,0.0
