@@ -1,0 +1,6 @@
+Method,Wins,Ties,Losses
+Grid Search,1,12,2
+Bayesian opt. (TPE),1,14,0
+CMA-ES,1,14,0
+Genetic algorithm,0,15,0
+BOHB,0,15,0

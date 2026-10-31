@@ -1,0 +1,9 @@
+Metric,Budget,Blocks,Random Search,Bayesian opt. (TPE),CMA-ES,Genetic algorithm,BOHB,Grid Search
+test macro-F1,10,15,3.03,3.03,2.53,3.4,3.0,
+test macro-F1,25,15,3.27,2.8,2.73,3.47,2.73,
+test macro-F1,50,15,3.13,4.13,2.93,4.2,3.0,3.6
+test macro-F1,100,15,2.93,3.8,3.33,4.0,3.13,3.8
+CV macro-F1 (objective),10,15,2.9,2.9,2.4,2.87,3.93,
+CV macro-F1 (objective),25,15,4.6,1.4,3.27,2.8,2.93,
+CV macro-F1 (objective),50,15,5.13,1.6,2.87,3.13,2.87,5.4
+CV macro-F1 (objective),100,15,5.13,1.47,2.47,2.87,3.67,5.4

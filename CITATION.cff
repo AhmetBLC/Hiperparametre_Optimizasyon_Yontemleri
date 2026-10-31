@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Hiperparametre Optimizasyon Yöntemleri – HAR kıyaslama kodu ve sonuçları"
+version: 2.0.3
+date-released: 2026-11-01
+license: MIT
+authors:
+  - family-names: "SOYADI"
+    given-names: "Ahmet"
+repository-code: "https://github.com/AhmetBLC/Hiperparametre_Optimizasyon_Yontemleri"

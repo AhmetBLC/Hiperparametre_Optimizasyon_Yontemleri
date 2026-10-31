@@ -1,0 +1,16 @@
+dataset,model,processor,matched_evaluations,factor,reference
+wisdm,RandomForest,Intel(R) Xeon(R) CPU @ 2.20GHz,0,0.742,AMD EPYC 7B12
+motionsense,SVM,Intel(R) Xeon(R) CPU @ 2.20GHz,0,1.0,AMD EPYC 7B12
+pamap2,RandomForest,Intel(R) Xeon(R) CPU @ 2.20GHz,0,0.742,AMD EPYC 7B12
+uci_har,SVM,Intel(R) Xeon(R) CPU @ 2.20GHz,0,1.0,AMD EPYC 7B12
+uci_har,XGBoost,Intel(R) Xeon(R) CPU @ 2.20GHz,0,0.71,AMD EPYC 7B12
+wisdm,XGBoost,Intel(R) Xeon(R) CPU @ 2.20GHz,0,0.71,AMD EPYC 7B12
+harth,RandomForest,Intel(R) Xeon(R) CPU @ 2.20GHz,16,0.978,AMD EPYC 7B12
+motionsense,RandomForest,Intel(R) Xeon(R) CPU @ 2.20GHz,68,0.693,AMD EPYC 7B12
+uci_har,RandomForest,Intel(R) Xeon(R) CPU @ 2.20GHz,63,0.692,AMD EPYC 7B12
+pamap2,XGBoost,Intel(R) Xeon(R) CPU @ 2.20GHz,73,0.597,AMD EPYC 7B12
+harth,XGBoost,Intel(R) Xeon(R) CPU @ 2.20GHz,21,0.742,AMD EPYC 7B12
+wisdm,SVM,Intel(R) Xeon(R) CPU @ 2.20GHz,0,1.0,AMD EPYC 7B12
+motionsense,XGBoost,Intel(R) Xeon(R) CPU @ 2.20GHz,87,0.767,AMD EPYC 7B12
+pamap2,SVM,Intel(R) Xeon(R) CPU @ 2.20GHz,0,1.0,AMD EPYC 7B12
+harth,SVM,Intel(R) Xeon(R) CPU @ 2.20GHz,0,1.0,AMD EPYC 7B12
