@@ -1,6 +1,0 @@
-Dataset,Sensors,Subjects (train/test),Classes,Windows (train/test),Features,Split
-UCI HAR,"smartphone at the waist, acc+gyro 50 Hz, official 561 features",21/9,6,7352/2947,561,official (21 train / 9 test subjects)
-WISDM,"smartphone in trouser pocket, accelerometer 20 Hz",25/11,6,3343/1432,87,subject hold-out (25 train / 11 test subjects)
-PAMAP2,"3 IMUs (wrist, chest, ankle), acc+gyro 100 Hz, protocol activities",5/3,12,2315/1506,522,subject hold-out (5 train / 3 test subjects)
-MotionSense,"iPhone in trouser pocket, device-motion 50 Hz",17/7,6,3866/1596,261,subject hold-out (17 train / 7 test subjects)
-HARTH,"2 accelerometers (lower back, thigh), 50 Hz, free-living",15/7,10,5513/2830,174,subject hold-out (15 train / 7 test subjects)
