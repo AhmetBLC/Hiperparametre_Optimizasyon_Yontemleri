@@ -13,4 +13,4 @@ runner      job enumeration, sharding, parallel execution with resume
 analysis    tables and statistical tests
 figures     publication figures
 """
-__version__ = "2.0.4"
+__version__ = "2.0.5"
