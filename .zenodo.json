@@ -1,0 +1,9 @@
+{
+  "title": "Hyperparameter optimization methods for subject-independent human activity recognition: benchmark code and results (v2.0.4)",
+  "upload_type": "software",
+  "description": "Code, Colab notebook and raw results (1,065 searches, 119,090 evaluations) for the benchmark of Grid Search, Random Search, TPE, CMA-ES, a genetic algorithm and BOHB for SVM, Random Forest and XGBoost on five human activity recognition datasets (UCI HAR, WISDM, PAMAP2, MotionSense, HARTH) with subject-independent evaluation. Includes the Bayesian signed-rank equivalence analysis.",
+  "creators": [{"name": "Balcı, Ahmet", "affiliation": "Gaziantep Islamic Science and Technology University"}],
+  "license": "MIT",
+  "keywords": ["hyperparameter optimization", "human activity recognition", "Bayesian optimization", "CMA-ES", "genetic algorithm", "BOHB", "benchmark"],
+  "version": "2.0.4"
+}
