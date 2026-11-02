@@ -5,5 +5,5 @@
   "creators": [{"name": "Balcı, Ahmet", "affiliation": "Gaziantep Islamic Science and Technology University"}],
   "license": "MIT",
   "keywords": ["hyperparameter optimization", "human activity recognition", "Bayesian optimization", "CMA-ES", "genetic algorithm", "BOHB", "benchmark"],
-  "version": "2.0.4"
+  "version": "2.0.5"
 }
