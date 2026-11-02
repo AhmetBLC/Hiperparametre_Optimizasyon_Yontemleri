@@ -72,6 +72,10 @@ metrics and test predictions). `<work-dir>/results/<preset>/analysis/` — table
   selected configurations at budgets 10/25/50/100, test metrics and environment). `hpo_har.analysis.Results(cfg, validate=False)`
   reads them without the datasets.
 - `results/*.csv` – all tables of the paper (T01–T13); `results/figures/` – all figures (PNG + PDF).
+- `bayesian_equivalence_analysis.py` – Bayesian signed-rank test with a region of practical
+  equivalence (Table 6 of the paper), within-block permutation test for the CV–test Spearman
+  correlation, and the budget-10 vs. budget-100 test comparison. Usage:
+  `unzip results/jobs_paper.zip -d jobs && python bayesian_equivalence_analysis.py jobs/jobs`
 
 ## License and citation
 
