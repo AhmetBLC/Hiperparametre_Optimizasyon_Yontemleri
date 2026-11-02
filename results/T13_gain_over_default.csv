@@ -1,0 +1,16 @@
+dataset,model,cv_gain,test_gain
+harth,RandomForest,0.01351,-0.00796
+harth,SVM,0.04358,-0.00703
+harth,XGBoost,0.04398,0.04144
+motionsense,RandomForest,0.01364,-0.00725
+motionsense,SVM,0.02024,-0.01007
+motionsense,XGBoost,0.01253,0.0168
+pamap2,RandomForest,0.00471,0.00492
+pamap2,SVM,0.01871,-0.00388
+pamap2,XGBoost,0.06914,0.06358
+uci_har,RandomForest,0.01568,0.00535
+uci_har,SVM,0.02135,0.0018
+uci_har,XGBoost,0.0214,0.01793
+wisdm,RandomForest,0.01238,-0.00816
+wisdm,SVM,0.03799,0.0275
+wisdm,XGBoost,0.04472,-0.03099

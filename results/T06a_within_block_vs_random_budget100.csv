@@ -1,0 +1,76 @@
+Dataset,Model,Method,Mean diff vs Random,"p (Holm, within block)",Outcome
+HARTH,Random Forest,Grid Search,-0.01893,0.0022,loss
+HARTH,Random Forest,Bayesian opt. (TPE),-0.0036,0.56186,tie
+HARTH,Random Forest,CMA-ES,-0.00326,0.56186,tie
+HARTH,Random Forest,Genetic algorithm,-0.00665,0.56186,tie
+HARTH,Random Forest,BOHB,-0.00144,0.79134,tie
+HARTH,SVM (RBF),Grid Search,-0.00442,0.46103,tie
+HARTH,SVM (RBF),Bayesian opt. (TPE),-0.00211,0.7229,tie
+HARTH,SVM (RBF),CMA-ES,0.00561,0.18818,tie
+HARTH,SVM (RBF),Genetic algorithm,-0.00293,0.72652,tie
+HARTH,SVM (RBF),BOHB,0.00089,0.85011,tie
+HARTH,XGBoost,Grid Search,-0.01165,0.02293,loss
+HARTH,XGBoost,Bayesian opt. (TPE),-0.00831,0.56186,tie
+HARTH,XGBoost,CMA-ES,-0.00106,1.0,tie
+HARTH,XGBoost,Genetic algorithm,-0.00115,1.0,tie
+HARTH,XGBoost,BOHB,-0.00127,1.0,tie
+MotionSense,Random Forest,Grid Search,0.00256,0.92938,tie
+MotionSense,Random Forest,Bayesian opt. (TPE),-0.00032,1.0,tie
+MotionSense,Random Forest,CMA-ES,-0.00274,1.0,tie
+MotionSense,Random Forest,Genetic algorithm,-0.00022,1.0,tie
+MotionSense,Random Forest,BOHB,-1e-05,1.0,tie
+MotionSense,SVM (RBF),Grid Search,0.00014,0.73571,tie
+MotionSense,SVM (RBF),Bayesian opt. (TPE),-0.00056,0.31317,tie
+MotionSense,SVM (RBF),CMA-ES,-0.00041,0.73571,tie
+MotionSense,SVM (RBF),Genetic algorithm,-0.00056,0.73571,tie
+MotionSense,SVM (RBF),BOHB,2e-05,0.73571,tie
+MotionSense,XGBoost,Grid Search,0.002,1.0,tie
+MotionSense,XGBoost,Bayesian opt. (TPE),-0.00109,1.0,tie
+MotionSense,XGBoost,CMA-ES,0.0015,1.0,tie
+MotionSense,XGBoost,Genetic algorithm,-0.00027,1.0,tie
+MotionSense,XGBoost,BOHB,0.00296,0.92938,tie
+PAMAP2,Random Forest,Grid Search,-0.00289,0.44487,tie
+PAMAP2,Random Forest,Bayesian opt. (TPE),-0.0002,0.90972,tie
+PAMAP2,Random Forest,CMA-ES,-0.00244,0.44487,tie
+PAMAP2,Random Forest,Genetic algorithm,-0.00242,0.44487,tie
+PAMAP2,Random Forest,BOHB,-0.00433,0.44487,tie
+PAMAP2,SVM (RBF),Grid Search,-0.00024,0.4429,tie
+PAMAP2,SVM (RBF),Bayesian opt. (TPE),0.00216,0.35397,tie
+PAMAP2,SVM (RBF),CMA-ES,0.00291,0.13829,tie
+PAMAP2,SVM (RBF),Genetic algorithm,0.00236,0.35397,tie
+PAMAP2,SVM (RBF),BOHB,0.00209,0.35397,tie
+PAMAP2,XGBoost,Grid Search,-0.002,1.0,tie
+PAMAP2,XGBoost,Bayesian opt. (TPE),-0.0038,1.0,tie
+PAMAP2,XGBoost,CMA-ES,-0.00267,1.0,tie
+PAMAP2,XGBoost,Genetic algorithm,-0.00236,1.0,tie
+PAMAP2,XGBoost,BOHB,-0.00327,1.0,tie
+UCI HAR,Random Forest,Grid Search,-0.00661,0.05665,tie
+UCI HAR,Random Forest,Bayesian opt. (TPE),0.00043,0.76935,tie
+UCI HAR,Random Forest,CMA-ES,-0.00334,0.22698,tie
+UCI HAR,Random Forest,Genetic algorithm,-0.00474,0.05665,tie
+UCI HAR,Random Forest,BOHB,-0.00178,0.76935,tie
+UCI HAR,SVM (RBF),Grid Search,-0.00114,0.0857,tie
+UCI HAR,SVM (RBF),Bayesian opt. (TPE),-0.00103,0.30177,tie
+UCI HAR,SVM (RBF),CMA-ES,-0.00079,1.0,tie
+UCI HAR,SVM (RBF),Genetic algorithm,-0.00061,1.0,tie
+UCI HAR,SVM (RBF),BOHB,0.00014,1.0,tie
+UCI HAR,XGBoost,Grid Search,0.0017,0.85471,tie
+UCI HAR,XGBoost,Bayesian opt. (TPE),0.00297,0.80986,tie
+UCI HAR,XGBoost,CMA-ES,0.00282,0.80986,tie
+UCI HAR,XGBoost,Genetic algorithm,0.00203,0.81911,tie
+UCI HAR,XGBoost,BOHB,0.00082,0.85471,tie
+WISDM,Random Forest,Grid Search,-0.00124,1.0,tie
+WISDM,Random Forest,Bayesian opt. (TPE),0.00085,1.0,tie
+WISDM,Random Forest,CMA-ES,-0.00451,1.0,tie
+WISDM,Random Forest,Genetic algorithm,-0.00283,1.0,tie
+WISDM,Random Forest,BOHB,-9e-05,1.0,tie
+WISDM,SVM (RBF),Grid Search,0.01065,0.0071,win
+WISDM,SVM (RBF),Bayesian opt. (TPE),0.00584,0.0339,win
+WISDM,SVM (RBF),CMA-ES,0.00675,0.01123,win
+WISDM,SVM (RBF),Genetic algorithm,0.00189,0.34434,tie
+WISDM,SVM (RBF),BOHB,0.00456,0.07527,tie
+WISDM,XGBoost,Grid Search,0.03621,0.0701,tie
+WISDM,XGBoost,Bayesian opt. (TPE),-0.0055,1.0,tie
+WISDM,XGBoost,CMA-ES,0.00246,1.0,tie
+WISDM,XGBoost,Genetic algorithm,0.00421,1.0,tie
+WISDM,XGBoost,BOHB,0.02462,0.25609,tie

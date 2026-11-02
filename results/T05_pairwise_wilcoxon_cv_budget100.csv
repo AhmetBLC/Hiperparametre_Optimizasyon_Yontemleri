@@ -1,0 +1,16 @@
+Comparison,Mean diff,Wins/ties/losses,W,p,Rank-biserial r,p (Holm)
+Grid Search vs Random Search,-0.00167,4/0/11,27.0,0.06372,-0.55,0.25488
+Grid Search vs Bayesian opt. (TPE),-0.0063,1/0/14,2.0,0.00018,-0.96667,0.00183
+Grid Search vs CMA-ES,-0.00533,1/0/14,2.0,0.00018,-0.96667,0.00183
+Grid Search vs Genetic algorithm,-0.005,1/0/14,1.0,0.00012,-0.98333,0.00134
+Grid Search vs BOHB,-0.00432,2/0/13,5.0,0.00061,-0.91667,0.00488
+Random Search vs Bayesian opt. (TPE),-0.00463,0/0/15,0.0,6e-05,-1.0,0.00092
+Random Search vs CMA-ES,-0.00366,0/0/15,0.0,6e-05,-1.0,0.00092
+Random Search vs Genetic algorithm,-0.00333,0/0/15,0.0,6e-05,-1.0,0.00092
+Random Search vs BOHB,-0.00265,2/0/13,9.0,0.00201,-0.85,0.0141
+Bayesian opt. (TPE) vs CMA-ES,0.00098,11/0/4,21.0,0.02557,0.65,0.12787
+Bayesian opt. (TPE) vs Genetic algorithm,0.00131,13/0/2,16.0,0.01025,0.73333,0.06152
+Bayesian opt. (TPE) vs BOHB,0.00199,15/0/0,0.0,6e-05,1.0,0.00092
+CMA-ES vs Genetic algorithm,0.00033,9/0/6,49.0,0.5614,0.18333,0.71826
+CMA-ES vs BOHB,0.00101,11/0/4,33.0,0.13538,0.45,0.40613
+Genetic algorithm vs BOHB,0.00068,10/0/5,43.0,0.35913,0.28333,0.71826
